@@ -1,4 +1,4 @@
-感谢 小金鱼提供的 教程 [axios说明地址](https://ykloveyxk.github.io/2017/02/25/axios%E5%85%A8%E6%94%BB%E7%95%A5/#more)
+[axios参考](https://ykloveyxk.github.io/2017/02/25/axios%E5%85%A8%E6%94%BB%E7%95%A5/#more)
 
 > 封装地址 /src/util.js
 # test
@@ -37,14 +37,14 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 this.$request({
     url: 'xxx'
 }).then(res => {
-    // 业务逻辑
+    // 业务逻辑
 })
 
 # post请求
 this.$post({
     url: 'xxx'
 }).then(res => {
-    // 业务逻辑
+    // 业务逻辑
 })
 
 # 异常处理，添加了拦截器
